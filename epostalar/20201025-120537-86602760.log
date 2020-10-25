@@ -1,0 +1,26 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Subject: 
+ =?utf-8?q?127=2E0=2E0=2E1=3A8000_sitesinde_parola_s=C4=B1f=C4=B1rlama?=
+From: webmaster@localhost
+To: ahmet@husrev.com
+Date: Sun, 25 Oct 2020 10:05:37 -0000
+Message-ID: <160362033745.1328.9699164418986353800@LAB8-OGRETMEN>
+
+
+Bu e-postayı alıyorsunuz çünkü 127.0.0.1:8000 sitesindeki kullanıcı hesabınız için bir parola sıfırlama istediniz.
+
+Lütfen şurada belirtilen sayfaya gidin ve yeni bir parola seçin:
+
+http://127.0.0.1:8000/accounts/reset/Mg/acas9d-2c1bcec0267013f0547f919781eb42ba/
+
+Unutma ihtimalinize karşı, kullanıcı adınız: ahmet
+
+Sitemizi kullandığınız için teşekkürler!
+
+127.0.0.1:8000 ekibi
+
+
+
+-------------------------------------------------------------------------------
