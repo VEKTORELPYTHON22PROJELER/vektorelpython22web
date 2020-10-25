@@ -1,0 +1,17 @@
+{% extends "../generic.html" %}
+
+{%block title%}
+		Gönderi Listesi
+		{% endblock %}
+        
+{% block content2 %}
+<a href="{%url 'yeniGonderi' %}">Yeni Gönderi</a>
+{% for gonderi in gonderis  %}
+<a href="{% url 'gonderidetay' pk=gonderi.pk %}" >
+<h2>{{gonderi.baslik}}</h2>
+</a>
+<p>{{gonderi.yazi}}</p>
+{{gonderi.olusturzaman}}
+{% endfor %}
+
+{% endblock %}

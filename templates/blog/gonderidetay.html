@@ -1,0 +1,16 @@
+{% extends "../generic.html" %}
+
+{%block title%}
+		Gönderi Listesi
+		{% endblock %}
+{% block content2 %}
+
+<a href="{% url 'editgonderi' pk=gonderi.pk %}">
+Düzenle
+</a> 
+<a href="{% url 'gonderiliste' %}">
+Liste
+</a> 
+<h2> {{gonderi.baslik}} </h2>
+<p> {{gonderi.yazi}} </p>
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends "../generic.html" %}
+
+{%block title%}
+		Yeni Gönderi
+		{% endblock %}
+        
+{% block content2 %}
+<h1>Yeni Gönderi</h1>
+<form method="POST">
+    {% csrf_token %}
+    {{form.as_p}}
+    <button type="submit" >Kaydet</button> 
+    {% comment '//TODO css eklenecek' %}
+    {% endcomment %}
+</form>
+{% endblock %}
